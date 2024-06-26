@@ -8,11 +8,11 @@
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "Izuku Midoriya"
+      "value": "Methum Kaveesha"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
-     "required" :false
+     "required" :true
     },
     "AUTO_STATUS_SAVER": {
       "description": "Automatically saves status of every person and sends in log number.",
@@ -24,11 +24,11 @@
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
-     "required"  :true
+     "required"  :false
     },
  "HEROKU_APP_NAME": {
     "description": "This field will be ignored. Heroku will generate a random app name.",
-    "required": "true"
+    "required": "false"
 },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
@@ -72,10 +72,11 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "2347039570336"
+       "value": "94727849423"
   },
    "SESSION_ID": {
-    "description": "Please put your SESSION_ID here,if you don't have visit https://replit.com/@Excelottah/BLACK-Md"
+    "description": "Please put your SESSION_ID here,if you don't have visit https://replit.com/@Excelottah/BLACK-Md",
+	"value": "IZUKU;;; eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR01iS0hBYTNCR2ZVN2xveWFiTHVld1BhKzVDVEh1WHhldlo4TFN6QWRIST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZnRPenNHczgzYlRNaDd5WHZXbkUwV2Nzd0hVQm9pOHlPZ3VFTlM4TSszdz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhUHlCdVlpTWN0WDliK1MxcnVpRnlTWmRNZmpRemN4S2UvQzRXM3RqUTFrPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJWNElZYnArU3RDRXhlSlByUkhRNjQ3b3Izc244dlFETjN6RjV4ZnpJSlc4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZLWnhKU2xROHpiMXJsTUtobDY2KzA3cXZkZjJZWk81cUxrOW5KeEgrMjQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlRhYzJlQW95U2xCT0FtbUJWL2tWdkcwSVBqbWdDQThUak5kTkhBelRGQ289In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYURqelZ3MmsyK1hReFErYk9rZDJwSW5ISE5PK21ZWUdENlMxUlR1M0ZFMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUnVpMGhvdC8xeTkrUjdtZ0xLSjdiclRQeEhGaFZZbXh0UnQ4bmFQWTBCaz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjVRVXd2cXh6YnB0TEJBaHRNUUJaRjAvMUVXbFk4Z0JNeUpkdlFwVjhuWk83RXlwZUNKL3NEUjBIUFJpbmwyYWM5SVc1ZzBvbGY2UmZpakpjN0k3V0FRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTkxLCJhZHZTZWNyZXRLZXkiOiJMOWtPQVViRExLZEQ2M1ZNdDVYZXRaUk1iUzBzVUZWdC9rQURhNXRsbWVNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJGOElYak1sQlI0S1U5a0p5ZzVkREd3IiwicGhvbmVJZCI6ImVkNjFkNzBlLWYwMzItNDdlZS1iZDZmLTQxOGRlODM0YTVhZiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJEUTlKY0IxNlppdTZjVUgxTzhBL3NaMjBoWDA9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjJwUlpvN3o3UHZkSDIrc0cwaURSU2QxcVljYz0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ09DVnpKUUNFTzdmOExNR0dCVWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ii9BUVhDNXRlSFo2U3NHbnlFdHhzMlE0WVBJcXcrUUwyWlI2Z3hNRFF2MkE9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImNKNnU5bzEzUXkvZktjMWJiQmdvbjhkTEtpcFhDZUFjaGVrVVk4dTRDb2Rpbm50eStvdzhaanlsemhkZjFZWndGR2YrRGoxczI2U0VNT2xLTVdBNUJBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJHYVc2WTBXM3Rhd0FDb0NHeEdXU1BESDNPclRWcTVzQzQyaE8zM1lrTnNSNU4yclRGN3NxV1ZHcVBiSTJwZzQrWkYvcThFS1g1TUx5U0xWV2daeldDQT09In0sIm1lIjp7ImlkIjoiOTQ3Mjc4NDk0MjM6MTNAcy53aGF0c2FwcC5uZXQifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTQ3Mjc4NDk0MjM6MTNAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCZndFRnd1YlhoMmVrckJwOGhMY2JOa09HRHlLc1BrQzltVWVvTVRBMEw5ZyJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxOTQxNDc3MCwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFHc1MifQ=="   
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
@@ -92,11 +93,11 @@
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-         "value": "private"
+         "value": "public"
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands.",
-     "value": "false",
+     "value": "true",
      "required": false 
   },
   "PACK_INFO": {
